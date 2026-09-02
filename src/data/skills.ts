@@ -2,7 +2,7 @@ import type { SkillCategory } from '../types'
 
 export const skillCategories: SkillCategory[] = [
   {
-    title: 'Languages',
+    title: 'Sprachen',
     items: ['Java', 'JavaScript', 'PHP', 'Bash', 'SQL'],
   },
   {
@@ -11,14 +11,14 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     title: 'Backend',
-    items: ['Java runtime workflows', 'CGI (Bash)', 'REST-style API contracts'],
+    items: ['Java-Runtime-Workflows', 'CGI (Bash)', 'REST-aehnliche API-Vertraege'],
   },
   {
-    title: 'Database',
+    title: 'Datenbanken',
     items: ['MariaDB', 'SQLite', 'Redis', 'MySQL concepts'],
   },
   {
-    title: 'Infrastructure',
+    title: 'Infrastruktur',
     items: ['Docker', 'Apache', 'HAProxy', 'Linux/WSL'],
   },
   {
@@ -26,7 +26,7 @@ export const skillCategories: SkillCategory[] = [
     items: ['Git', 'GitHub', 'VS Code', 'Gnuplot'],
   },
   {
-    title: 'Portfolio Technology',
+    title: 'Portfolio-Technologie',
     items: ['React', 'TypeScript', 'Vite'],
   },
 ]

@@ -6,16 +6,16 @@ export function HeroSection() {
     <section id="top" className="hero-section">
       <div className="container hero-grid">
         <div>
-          <p className="eyebrow">Software Engineering Portfolio</p>
+          <p className="eyebrow">Software-Engineering Portfolio</p>
           <h1>{siteMeta.name}</h1>
           <p className="hero-role">{siteMeta.role}</p>
           <p className="hero-intro">{siteMeta.shortIntro}</p>
           <div className="hero-actions">
-            <a className="button primary" href="#projects">View Projects</a>
+            <a className="button primary" href="#projects">Projekte ansehen</a>
             {siteMeta.cvAvailable ? (
-              <a className="button ghost" href={siteMeta.cvPath} target="_blank" rel="noreferrer">Download CV</a>
+              <a className="button ghost" href={siteMeta.cvPath} target="_blank" rel="noreferrer">CV herunterladen</a>
             ) : (
-              <button className="button ghost" disabled aria-disabled="true" title="CV not uploaded yet">CV Unavailable</button>
+              <button className="button ghost" disabled aria-disabled="true" title="CV wurde noch nicht hochgeladen">CV folgt bald</button>
             )}
           </div>
           <div className="hero-badges">
@@ -23,14 +23,18 @@ export function HeroSection() {
           </div>
         </div>
 
-        <aside className="hero-panel" aria-label="Current focus">
-          <h3>Current Focus</h3>
+        <aside className="hero-panel" aria-label="Aktueller Fokus">
+          <img src="/assets/portrait-tech.svg" alt="Abstrakte Entwickler-Illustration" className="hero-portrait" loading="lazy" />
+          <h3>Aktueller Fokus</h3>
           <ul>
-            <li>Backend-oriented application engineering</li>
-            <li>Containerized runtime and service integration</li>
-            <li>Reliable data flow between UI, API, and database layers</li>
+            <li>Backend-orientierte Anwendungsentwicklung</li>
+            <li>Containerisierte Runtime- und Service-Integration</li>
+            <li>Zuverlaessiger Datenfluss zwischen UI, API und Datenbank</li>
           </ul>
         </aside>
+      </div>
+      <div className="container">
+        <img src="/assets/code-texture.svg" alt="Abstraktes Code-Muster" className="code-banner" loading="lazy" />
       </div>
     </section>
   )

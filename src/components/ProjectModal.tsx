@@ -14,29 +14,29 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
         className="project-modal"
         role="dialog"
         aria-modal="true"
-        aria-label={`${project.title} details`}
+        aria-label={`${project.title} Details`}
         onClick={(event) => event.stopPropagation()}
       >
         <header className="project-modal-header">
           <h3>{project.title}</h3>
-          <button onClick={onClose} aria-label="Close details">Close</button>
+          <button onClick={onClose} aria-label="Details schliessen">Schliessen</button>
         </header>
 
         <p>{project.details.overview}</p>
 
         <div className="modal-grid">
           <article>
-            <h4>Problem</h4>
+            <h4>Problemstellung</h4>
             <p>{project.details.problem}</p>
           </article>
           <article>
-            <h4>Solution</h4>
+            <h4>Loesung</h4>
             <p>{project.details.solution}</p>
           </article>
         </div>
 
         <article>
-          <h4>Architecture</h4>
+          <h4>Architektur</h4>
           <ul>
             {project.details.architecture.map((item) => (
               <li key={item}>{item}</li>
@@ -45,7 +45,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
         </article>
 
         <article>
-          <h4>Engineering Challenges</h4>
+          <h4>Technische Herausforderungen</h4>
           <ul>
             {project.details.engineeringChallenges.map((item) => (
               <li key={item}>{item}</li>
@@ -53,7 +53,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
           </ul>
         </article>
 
-        <a href={project.githubUrl} target="_blank" rel="noreferrer">Open Repository</a>
+        <a href={project.githubUrl} target="_blank" rel="noreferrer">Repository oeffnen</a>
       </section>
     </div>
   )

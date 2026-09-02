@@ -4,7 +4,7 @@ export function ContactSection() {
   return (
     <section id="contact" className="section-block section-emphasis">
       <div className="container contact-panel">
-        <SectionHeading eyebrow="Contact" title="Let's Build Something Reliable" subtitle="I am open to internship and junior software engineering opportunities." />
+        <SectionHeading eyebrow="Kontakt" title="Lass uns etwas Starkes bauen" subtitle="Ich bin offen fuer Praktika und Junior-Stellen in der Softwareentwicklung." />
 
         <div className="contact-links">
           <a className="button primary" href="TODO_LINKEDIN" target="_blank" rel="noreferrer">LinkedIn (TODO)</a>

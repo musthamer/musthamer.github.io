@@ -1,6 +1,6 @@
 # musthamer.github.io
 
-Personal software engineering portfolio built with React + TypeScript + Vite and deployed to GitHub Pages.
+Persoenliches Software-Engineering-Portfolio mit React + TypeScript + Vite, deployed via GitHub Pages.
 
 Live URL: https://musthamer.github.io/
 
@@ -12,7 +12,7 @@ Live URL: https://musthamer.github.io/
 - CSS (custom design system)
 - GitHub Actions (Pages deployment)
 
-## Sections
+## Bereiche
 
 - Hero and availability
 - About
@@ -23,7 +23,7 @@ Live URL: https://musthamer.github.io/
 - GitHub links
 - Contact (TODO placeholders)
 
-## Local Development
+## Lokale Entwicklung
 
 ```bash
 npm install
@@ -36,11 +36,11 @@ npm run dev
 npm run build
 ```
 
-## Deploy
+## Deployment
 
-Deployment is automated via `.github/workflows/deploy.yml` on push to `main`.
+Deployment laeuft automatisiert ueber `.github/workflows/deploy.yml` bei Push auf `main`.
 
-## Notes
+## Hinweise
 
-- CV link points to `/assets/cv.pdf` and stays disabled until the file is added.
-- Contact placeholders remain `TODO_LINKEDIN` and `TODO_EMAIL` by design.
+- Der CV-Link zeigt auf `/assets/cv.pdf` und bleibt deaktiviert, bis die Datei vorhanden ist.
+- Kontakt-Platzhalter `TODO_LINKEDIN` und `TODO_EMAIL` sind absichtlich offen.

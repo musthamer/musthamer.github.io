@@ -5,27 +5,27 @@ export function ArchitectureSection() {
     <section id="architecture" className="section-block section-emphasis">
       <div className="container">
         <SectionHeading
-          eyebrow="Architecture"
-          title="How I Think About Systems"
-          subtitle="A high-level flow I typically follow when implementing backend-oriented products."
+          eyebrow="Architektur"
+          title="Wie ich Systeme aufbaue"
+          subtitle="Ein typischer High-Level-Flow, den ich bei backend-orientierten Produkten verfolge."
         />
 
-        <div className="architecture-flow" aria-label="Architecture flow diagram">
+        <div className="architecture-flow" aria-label="Architekturfluss Diagramm">
           <article>
-            <h3>UI Layer</h3>
-            <p>Pages and interactions that expose domain workflows clearly and predictably.</p>
+            <h3>UI-Schicht</h3>
+            <p>Seiten und Interaktionen, die Fachprozesse klar und vorhersagbar abbilden.</p>
           </article>
           <article>
-            <h3>Application Layer</h3>
-            <p>Controllers/scripts/services that enforce business rules and API contracts.</p>
+            <h3>Applikationsschicht</h3>
+            <p>Controller, Skripte und Services, die Business-Regeln und API-Vertraege durchsetzen.</p>
           </article>
           <article>
-            <h3>Data Layer</h3>
-            <p>Relational or key-value persistence for durable state and reliable queries.</p>
+            <h3>Daten-Schicht</h3>
+            <p>Relationale oder Key-Value-Persistenz fuer stabilen Zustand und verlaessliche Abfragen.</p>
           </article>
           <article>
-            <h3>Operations Layer</h3>
-            <p>Containerization, logging, and service supervision to keep systems stable.</p>
+            <h3>Operations-Schicht</h3>
+            <p>Containerisierung, Logging und Service-Supervision fuer stabile Systeme im Betrieb.</p>
           </article>
         </div>
       </div>

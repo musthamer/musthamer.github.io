@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
 
 const navItems = [
-  { id: 'about', label: 'About' },
-  { id: 'projects', label: 'Projects' },
+  { id: 'about', label: 'Ueber mich' },
+  { id: 'projects', label: 'Projekte' },
   { id: 'skills', label: 'Skills' },
-  { id: 'architecture', label: 'Architecture' },
-  { id: 'education', label: 'Education' },
+  { id: 'architecture', label: 'Architektur' },
+  { id: 'education', label: 'Ausbildung' },
   { id: 'github', label: 'GitHub' },
-  { id: 'contact', label: 'Contact' },
+  { id: 'contact', label: 'Kontakt' },
 ]
 
 function scrollToId(id: string) {
@@ -31,12 +31,12 @@ export function Navbar() {
   return (
     <header className={`site-nav ${elevated ? 'site-nav-elevated' : ''}`}>
       <div className="container nav-inner">
-        <button className="nav-brand" onClick={() => scrollToId('top')} aria-label="Scroll to top">
+        <button className="nav-brand" onClick={() => scrollToId('top')} aria-label="Nach oben scrollen">
           <span className="brand-mark">MT</span>
           <span>musthamer.github.io</span>
         </button>
 
-        <nav className="nav-links" aria-label="Primary">
+        <nav className="nav-links" aria-label="Hauptnavigation">
           {navItems.map((item) => (
             <button key={item.id} onClick={() => scrollToId(item.id)}>
               {item.label}
@@ -49,7 +49,7 @@ export function Navbar() {
           onClick={() => setMenuOpen((v) => !v)}
           aria-expanded={menuOpen}
           aria-controls="mobile-menu"
-          aria-label="Toggle menu"
+          aria-label="Menue umschalten"
         >
           <span />
           <span />
@@ -58,7 +58,7 @@ export function Navbar() {
       </div>
 
       {menuOpen ? (
-        <nav id="mobile-menu" className="mobile-menu" aria-label="Mobile primary">
+        <nav id="mobile-menu" className="mobile-menu" aria-label="Mobile Navigation">
           {navItems.map((item) => (
             <button
               key={item.id}

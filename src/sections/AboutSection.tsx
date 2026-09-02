@@ -5,22 +5,22 @@ export function AboutSection() {
     <section id="about" className="section-block">
       <div className="container">
         <SectionHeading
-          eyebrow="About"
-          title="Engineering Mindset"
-          subtitle="I enjoy building practical systems where backend logic, data reliability, and user-facing workflows meet."
+          eyebrow="Ueber mich"
+          title="Mein Engineering-Ansatz"
+          subtitle="Ich baue praktische Systeme, in denen Backend-Logik, Datenqualitaet und nutzernahe Workflows zusammenkommen."
         />
 
         <div className="about-grid">
           <article>
-            <h3>How I Work</h3>
+            <h3>So arbeite ich</h3>
             <p>
-              I start from the core problem, define clear interfaces, and implement in small testable steps. My strongest work happens when I can map architecture decisions directly to user impact.
+              Ich starte beim Kernproblem, definiere klare Schnittstellen und implementiere in kleinen testbaren Schritten. Meine staerkste Arbeit entsteht, wenn Architekturentscheidungen direkt auf den Nutzerwert einzahlen.
             </p>
           </article>
           <article>
-            <h3>What I Value</h3>
+            <h3>Was mir wichtig ist</h3>
             <p>
-              Maintainable code, explicit documentation, and reproducible environments. I prefer predictable systems where each service has a clear responsibility.
+              Wartbarer Code, klare Dokumentation und reproduzierbare Umgebungen. Ich bevorzuge vorhersagbare Systeme, in denen jeder Service eine eindeutige Verantwortung hat.
             </p>
           </article>
         </div>

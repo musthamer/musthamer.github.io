@@ -126,7 +126,7 @@ a {
 }
 
 .hero-section {
-  padding: 72px 0 28px;
+  padding: 72px 0 8px;
 }
 
 .hero-grid {
@@ -196,6 +196,63 @@ a {
   border-radius: var(--radius);
   padding: 22px;
   box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-panel::before {
+  content: '';
+  position: absolute;
+  inset: auto -80px -80px auto;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(244, 184, 96, 0.25), rgba(244, 184, 96, 0));
+}
+
+.hero-portrait {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid rgba(141, 178, 216, 0.35);
+  margin-bottom: 14px;
+}
+
+.code-banner {
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.highlights-wrap {
+  padding: 14px 0 30px;
+}
+
+.highlights-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.fact-card {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: linear-gradient(170deg, rgba(17, 25, 38, 0.9), rgba(10, 18, 28, 0.9));
+  padding: 16px;
+}
+
+.fact-card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.fact-card strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.15rem;
 }
 
 .hero-panel h3 {
@@ -309,13 +366,36 @@ a {
   overflow: clip;
   background: rgba(14, 22, 34, 0.92);
   box-shadow: var(--shadow);
+  position: relative;
+  transition: transform 240ms ease, box-shadow 240ms ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 26px 70px rgba(0, 0, 0, 0.42);
+}
+
+.featured-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 3;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  background: linear-gradient(130deg, #f4b860, #f9d283);
+  color: #2f2207;
+  border-radius: 999px;
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
 }
 
 .project-card img {
   width: 100%;
-  height: 190px;
+  height: 204px;
   object-fit: cover;
   border-bottom: 1px solid var(--line);
+  filter: saturate(1.08) contrast(1.03);
 }
 
 .project-content {
@@ -368,6 +448,14 @@ a {
   color: var(--text);
   padding: 8px 12px;
   text-decoration: none;
+  transition: background 180ms ease, border-color 180ms ease;
+}
+
+.card-actions button:hover,
+.card-actions a:hover,
+.project-modal button:hover {
+  background: rgba(33, 58, 85, 0.68);
+  border-color: rgba(141, 178, 216, 0.45);
 }
 
 .modal-backdrop {
@@ -388,6 +476,12 @@ a {
   border-radius: 16px;
   background: #0d1520;
   padding: 18px;
+}
+
+.project-modal a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #9adff3;
 }
 
 .project-modal-header {
@@ -432,6 +526,7 @@ a {
 }
 
 @media (max-width: 960px) {
+  .highlights-grid,
   .hero-grid,
   .project-grid,
   .about-grid,

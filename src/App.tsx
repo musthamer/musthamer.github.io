@@ -7,6 +7,7 @@ import { ContactSection } from './sections/ContactSection'
 import { EducationSection } from './sections/EducationSection'
 import { GithubSection } from './sections/GithubSection'
 import { HeroSection } from './sections/HeroSection'
+import { HighlightsSection } from './sections/HighlightsSection'
 import { ProjectsSection } from './sections/ProjectsSection'
 import { SkillsSection } from './sections/SkillsSection'
 
@@ -16,6 +17,9 @@ function App() {
       <Navbar />
       <main>
         <HeroSection />
+        <Reveal>
+          <HighlightsSection />
+        </Reveal>
         <Reveal>
           <AboutSection />
         </Reveal>
@@ -40,7 +44,7 @@ function App() {
       </main>
       <footer className="site-footer">
         <div className="container">
-          <p>© {new Date().getFullYear()} Mustafa Thamer. Built with React + TypeScript + Vite.</p>
+          <p>© {new Date().getFullYear()} Mustafa Thamer. Entwickelt mit React, TypeScript und Vite.</p>
         </div>
       </footer>
     </div>

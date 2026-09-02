@@ -1,4 +1,4 @@
-export type ProjectCategory = 'Systems Engineering' | 'Backend' | 'Web Application'
+export type ProjectCategory = 'Systementwicklung' | 'Backend' | 'Webanwendung'
 
 export interface ProjectDetail {
   overview: string

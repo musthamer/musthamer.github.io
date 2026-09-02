@@ -5,7 +5,7 @@ export function SkillsSection() {
   return (
     <section id="skills" className="section-block">
       <div className="container">
-        <SectionHeading eyebrow="Skills" title="Technical Toolkit" subtitle="Focused on practical software delivery across backend, frontend, and infrastructure." />
+        <SectionHeading eyebrow="Skills" title="Technischer Werkzeugkasten" subtitle="Fokussiert auf praxisnahe Software-Umsetzung ueber Backend, Frontend und Infrastruktur hinweg." />
 
         <div className="skills-grid">
           {skillCategories.map((category) => (

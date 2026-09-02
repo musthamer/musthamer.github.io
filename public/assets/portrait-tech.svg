@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-label="Abstrakte Entwickler-Illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1e31"/>
+      <stop offset="100%" stop-color="#132b3e"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7c99a"/>
+      <stop offset="100%" stop-color="#e2a979"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="900" rx="42" fill="url(#bg)"/>
+  <circle cx="570" cy="140" r="130" fill="#1aa38a33"/>
+  <circle cx="130" cy="760" r="170" fill="#f4b86022"/>
+  <rect x="210" y="250" width="300" height="430" rx="120" fill="#0a1624"/>
+  <ellipse cx="360" cy="430" rx="120" ry="155" fill="url(#face)"/>
+  <path d="M240 360c45-95 198-95 243 0v60H240z" fill="#151515"/>
+  <circle cx="320" cy="430" r="9" fill="#3a2c21"/>
+  <circle cx="400" cy="430" r="9" fill="#3a2c21"/>
+  <path d="M315 505c25 28 70 28 95 0" stroke="#7a4e2e" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <rect x="244" y="560" width="232" height="118" rx="58" fill="#132b43"/>
+  <g font-family="Segoe UI, sans-serif" font-size="20" fill="#c5deff">
+    <text x="80" y="120">React</text>
+    <text x="565" y="300">TypeScript</text>
+    <text x="70" y="720">Docker</text>
+    <text x="500" y="760">SQL</text>
+  </g>
+</svg>
