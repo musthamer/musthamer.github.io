@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="SWE2 visual">
+  <rect width="1200" height="630" fill="#0d1723" />
+  <rect x="120" y="120" width="960" height="390" rx="24" fill="#15273a" />
+  <rect x="180" y="180" width="840" height="70" rx="12" fill="#23405d" />
+  <rect x="180" y="285" width="360" height="180" rx="12" fill="#1c354d" />
+  <rect x="570" y="285" width="450" height="180" rx="12" fill="#1c354d" />
+  <text x="210" y="225" fill="#ecf4ff" font-size="28" font-family="Segoe UI, sans-serif">Hotel Booking Dashboard</text>
+  <text x="210" y="380" fill="#f4b860" font-size="24" font-family="Segoe UI, sans-serif">PHP + SQLite</text>
+</svg>

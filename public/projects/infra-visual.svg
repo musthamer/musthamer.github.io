@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="INFRA architecture abstract visual">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0e1b2a" />
+      <stop offset="100%" stop-color="#102f44" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g1)" />
+  <circle cx="980" cy="110" r="180" fill="#29c3a930" />
+  <rect x="90" y="120" width="420" height="130" rx="18" fill="#172738" stroke="#4a6988" />
+  <rect x="640" y="120" width="460" height="130" rx="18" fill="#172738" stroke="#4a6988" />
+  <rect x="90" y="340" width="330" height="130" rx="18" fill="#172738" stroke="#4a6988" />
+  <rect x="470" y="340" width="300" height="130" rx="18" fill="#172738" stroke="#4a6988" />
+  <rect x="820" y="340" width="280" height="130" rx="18" fill="#172738" stroke="#4a6988" />
+  <path d="M510 185H640" stroke="#f4b860" stroke-width="8" stroke-linecap="round" />
+  <path d="M420 405H470" stroke="#f4b860" stroke-width="8" stroke-linecap="round" />
+  <path d="M770 405H820" stroke="#f4b860" stroke-width="8" stroke-linecap="round" />
+  <text x="120" y="195" fill="#e8f1ff" font-size="36" font-family="Segoe UI, sans-serif">UI + Map Polling</text>
+  <text x="670" y="195" fill="#e8f1ff" font-size="36" font-family="Segoe UI, sans-serif">Bash CGI API Layer</text>
+  <text x="120" y="415" fill="#e8f1ff" font-size="30" font-family="Segoe UI, sans-serif">MariaDB</text>
+  <text x="500" y="415" fill="#e8f1ff" font-size="30" font-family="Segoe UI, sans-serif">Queue Worker</text>
+  <text x="850" y="415" fill="#e8f1ff" font-size="30" font-family="Segoe UI, sans-serif">Monitoring</text>
+</svg>

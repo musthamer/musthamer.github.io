@@ -1,0 +1,128 @@
+import type { ProjectItem } from '../types'
+
+export const projects: ProjectItem[] = [
+  {
+    id: 'infra-2024-l',
+    title: 'INFRA 2024-L',
+    repo: 'musthamer/infra-2024-l',
+    githubUrl: 'https://github.com/musthamer/infra-2024-l',
+    description:
+      'Ship-tracking engineering system with Bash CGI services, MariaDB data layer, AJAX polling frontend, and service supervision.',
+    challenge:
+      'Combine web runtime, data processing, and asynchronous worker services into one reproducible architecture.',
+    technologies: ['Bash CGI', 'JavaScript', 'AJAX', 'Leaflet', 'MariaDB', 'Apache', 'Docker Compose', 'Gnuplot'],
+    category: 'Systems Engineering',
+    featured: true,
+    image: '/projects/infra-visual.svg',
+    imageAlt: 'Conceptual architecture visual for INFRA 2024-L',
+    highlights: [
+      'Authentication and session lifecycle in CGI runtime',
+      'Simple vs optimized ships endpoint with same API contract',
+      'Queue worker pipeline for email simulation',
+    ],
+    details: {
+      overview:
+        'A complete INFRA semester project that links frontend map visualization, backend CGI endpoints, data persistence, and background workers.',
+      problem:
+        'The application must keep ship data live, secure protected endpoints, and remain operational when service components fail.',
+      solution:
+        'The project uses session-aware CGI endpoints, periodic frontend polling, MariaDB-backed queue processing, and watcher scripts for auto-recovery.',
+      architecture: ['Browser UI', 'Apache + Bash CGI endpoints', 'MariaDB', 'Queue/worker services', 'Monitoring artifacts'],
+      engineeringChallenges: [
+        'Consistent JSON contracts across interchangeable implementations',
+        'Safe parsing and reduced unsafe shell evaluation paths',
+        'End-to-end reliability checks with scripted tests',
+      ],
+    },
+  },
+  {
+    id: 'vns-2024-team14',
+    title: 'VNS 2024 Team 14',
+    repo: 'musthamer/vns-2024-team14',
+    githubUrl: 'https://github.com/musthamer/vns-2024-team14',
+    description:
+      'Dockerized task management platform using Apache CGI scripts, Redis session handling, and MariaDB persistence.',
+    challenge:
+      'Orchestrate multiple containers and keep authentication/task operations stable in local WSL environments.',
+    technologies: ['Docker', 'Apache', 'Bash CGI', 'Redis', 'MariaDB', 'HAProxy', 'HTML', 'CSS', 'JavaScript'],
+    category: 'Systems Engineering',
+    featured: true,
+    image: '/projects/vns-visual.svg',
+    imageAlt: 'Conceptual architecture visual for VNS 2024 Team 14',
+    highlights: [
+      'Login, registration, and session-backed task flows',
+      'Multiple Apache runtime nodes and container networking',
+      'Documented CGI endpoints for CRUD task operations',
+    ],
+    details: {
+      overview: 'A local-first Docker setup for a CGI-based ToDo system with authentication, sessions, and data persistence.',
+      problem: 'Task operations and user sessions must remain coherent across distributed container services.',
+      solution: 'The architecture separates web, database, and cache concerns while exposing clear CGI endpoints and startup scripts.',
+      architecture: ['Frontend via Apache', 'CGI auth/task endpoints', 'Redis session/cache layer', 'MariaDB relational store'],
+      engineeringChallenges: ['Container coordination for reproducible startup', 'Session correctness across request lifecycle'],
+    },
+  },
+  {
+    id: 'swe3-2024-12',
+    title: 'SWE3 2024-12',
+    repo: 'musthamer/swe3-2024-12',
+    githubUrl: 'https://github.com/musthamer/swe3-2024-12',
+    description: 'Java university project for appointment registration workflows with structured setup and local build notes.',
+    challenge: 'Maintain clear backend-oriented structure while keeping the project easy to review and run locally.',
+    technologies: ['Java', 'Maven/Gradle', 'HTML', 'CSS', 'JavaScript'],
+    category: 'Backend',
+    featured: true,
+    image: '/projects/swe3-visual.svg',
+    imageAlt: 'Conceptual architecture visual for SWE3 2024-12',
+    highlights: ['Appointment registration oriented domain', 'Documented Maven and Gradle setup paths'],
+    details: {
+      overview: 'A Java-focused project centered on registration flows and maintainable repository structure for collaboration and review.',
+      problem: 'Project maintainability and reproducibility are often difficult in student team environments.',
+      solution: 'The repository emphasizes clear folder boundaries and explicit local build/start instructions.',
+      architecture: ['Web frontend integration layer', 'Java application core', 'Build system via Maven or Gradle'],
+      engineeringChallenges: ['Keeping setup understandable for new reviewers', 'Balancing feature work and documentation quality'],
+    },
+  },
+  {
+    id: 'swe2-2023-team17',
+    title: 'SWE2 2023 Team 17',
+    repo: 'musthamer/swe2-2023-team17',
+    githubUrl: 'https://github.com/musthamer/swe2-2023-team17',
+    description: 'Hotel booking web application with PHP backend, SQLite persistence, authentication, validation, and admin room management.',
+    challenge: 'Design booking workflows with validation and conflict handling while keeping the stack lightweight.',
+    technologies: ['PHP', 'SQLite', 'JavaScript', 'Bootstrap', 'HTML', 'CSS'],
+    category: 'Web Application',
+    featured: false,
+    image: '/projects/swe2-visual.svg',
+    imageAlt: 'Conceptual architecture visual for SWE2 Team 17',
+    highlights: ['Session-based user and admin flows', 'Booking validation and overlap checks', 'SQLite bootstrap setup'],
+    details: {
+      overview: 'A full-stack web workflow project covering registration, bookings, and admin operations.',
+      problem: 'Booking systems require robust validation to avoid conflicts and invalid reservations.',
+      solution: 'The implementation uses server-side validation rules and a SQLite-backed persistence flow with clear setup steps.',
+      architecture: ['PHP pages and handlers', 'Session-based auth logic', 'SQLite data store'],
+      engineeringChallenges: ['Conflict checks for overlapping reservations', 'Admin operations with booking constraints'],
+    },
+  },
+  {
+    id: 'step2022team12',
+    title: 'STEP 2022 Team 12',
+    repo: 'musthamer/step2022team12',
+    githubUrl: 'https://github.com/musthamer/step2022team12',
+    description: 'Early CGI catalog project with search, login, registration, and CSV-based persistence in a lightweight setup.',
+    challenge: 'Provide simple authenticated catalog operations with minimal infrastructure.',
+    technologies: ['Shell CGI', 'HTML', 'CSS', 'CSV', 'Python local runtime'],
+    category: 'Web Application',
+    featured: false,
+    image: '/projects/step-visual.svg',
+    imageAlt: 'Conceptual architecture visual for STEP 2022 Team 12',
+    highlights: ['Public catalog filtering without login', 'Admin-only content changes', 'CSV persistence layer'],
+    details: {
+      overview: 'An earlier learning-stage project that demonstrates foundational CGI routing and simple persistence patterns.',
+      problem: 'The system needed a low-complexity stack while still supporting search and account flows.',
+      solution: 'Bash CGI scripts and CSV storage provide a straightforward runtime with clear local startup instructions.',
+      architecture: ['Browser UI', 'Shell CGI scripts', 'CSV-backed storage'],
+      engineeringChallenges: ['Route compatibility for special characters', 'Balancing public browsing and restricted actions'],
+    },
+  },
+]

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="VNS architecture abstract visual">
+  <rect width="1200" height="630" fill="#0d1825" />
+  <rect x="110" y="120" width="980" height="390" rx="26" fill="#132434" stroke="#37617f" />
+  <rect x="170" y="180" width="260" height="110" rx="14" fill="#1a3147" />
+  <rect x="470" y="180" width="260" height="110" rx="14" fill="#1a3147" />
+  <rect x="770" y="180" width="260" height="110" rx="14" fill="#1a3147" />
+  <rect x="220" y="350" width="240" height="110" rx="14" fill="#1a3147" />
+  <rect x="500" y="350" width="240" height="110" rx="14" fill="#1a3147" />
+  <rect x="780" y="350" width="240" height="110" rx="14" fill="#1a3147" />
+  <text x="205" y="246" fill="#dce9f8" font-size="26" font-family="Segoe UI, sans-serif">Apache CGI</text>
+  <text x="515" y="246" fill="#dce9f8" font-size="26" font-family="Segoe UI, sans-serif">Redis</text>
+  <text x="845" y="246" fill="#dce9f8" font-size="26" font-family="Segoe UI, sans-serif">MariaDB</text>
+  <text x="250" y="416" fill="#f4b860" font-size="24" font-family="Segoe UI, sans-serif">Container 1</text>
+  <text x="530" y="416" fill="#f4b860" font-size="24" font-family="Segoe UI, sans-serif">Container 2</text>
+  <text x="810" y="416" fill="#f4b860" font-size="24" font-family="Segoe UI, sans-serif">Container 3</text>
+</svg>

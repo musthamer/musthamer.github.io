@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="STEP visual">
+  <rect width="1200" height="630" fill="#0d1724" />
+  <g stroke="#2e4b68" stroke-width="2">
+    <path d="M0 80H1200" />
+    <path d="M0 180H1200" />
+    <path d="M0 280H1200" />
+    <path d="M0 380H1200" />
+    <path d="M0 480H1200" />
+  </g>
+  <rect x="150" y="140" width="900" height="340" rx="24" fill="#14283a" stroke="#355879" />
+  <text x="210" y="250" fill="#e8f1ff" font-size="52" font-family="Segoe UI, sans-serif">STEP 2022 Team 12</text>
+  <text x="210" y="330" fill="#f4b860" font-size="32" font-family="Segoe UI, sans-serif">CGI Catalog + CSV Persistence</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="SWE3 visual">
+  <rect width="1200" height="630" fill="#0c1521" />
+  <path d="M120 500L360 180L620 500Z" fill="#19314a" />
+  <path d="M580 500L830 130L1080 500Z" fill="#1f3d5a" />
+  <text x="130" y="560" fill="#e8f1ff" font-size="44" font-family="Segoe UI, sans-serif">Java Appointment Workflows</text>
+  <text x="130" y="100" fill="#f4b860" font-size="30" font-family="Segoe UI, sans-serif">SWE3 2024-12</text>
+</svg>
