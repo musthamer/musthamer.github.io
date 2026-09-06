@@ -19,7 +19,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
       >
         <header className="project-modal-header">
           <h3>{project.title}</h3>
-          <button onClick={onClose} aria-label="Details schliessen">Schliessen</button>
+          <button onClick={onClose} aria-label="Details schließen">Schließen</button>
         </header>
 
         <p>{project.details.overview}</p>
@@ -30,7 +30,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
             <p>{project.details.challenge}</p>
           </article>
           <article>
-            <h4>Loesung</h4>
+            <h4>Lösung</h4>
             <p>{project.details.solution}</p>
           </article>
         </div>
@@ -53,7 +53,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
           </ul>
         </article>
 
-        <a href={project.githubUrl} target="_blank" rel="noreferrer">Repository oeffnen</a>
+        <a href={project.githubUrl} target="_blank" rel="noreferrer">Repository öffnen</a>
       </section>
     </div>
   )

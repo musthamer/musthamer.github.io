@@ -7,7 +7,7 @@ export function ArchitectureSection() {
         <SectionHeading
           eyebrow="Architekturdenken"
           title="Vom Browser bis zur Infrastruktur"
-          subtitle="Ich arbeite gerne am gesamten technischen Ablauf: Oberflaeche, Business-Logik, Daten und Betriebsstabilitaet."
+          subtitle="Ich arbeite gerne am gesamten technischen Ablauf: Oberfläche, Business-Logik, Daten und Betriebsstabilität."
         />
 
         <div className="architecture-flow" aria-label="Architekturfluss Diagramm">
@@ -17,15 +17,15 @@ export function ArchitectureSection() {
           </article>
           <article>
             <h3>Backend / API / CGI</h3>
-            <p>Servlets, CGI-Endpunkte und Service-Logik fuer Fachregeln, Authentifizierung und Datenfluss.</p>
+            <p>Servlets, CGI-Endpunkte und Service-Logik für Fachregeln, Authentifizierung und Datenfluss.</p>
           </article>
           <article>
             <h3>Datenebene</h3>
-            <p>MariaDB, Redis oder SQLite fuer konsistente Speicherung und schnelle Abfragen.</p>
+            <p>MariaDB, Redis oder SQLite für konsistente Speicherung und schnelle Abfragen.</p>
           </article>
           <article>
             <h3>Services und Infrastruktur</h3>
-            <p>Docker, Apache, HAProxy, Worker und Monitoring fuer belastbare Laufzeiten.</p>
+            <p>Docker, Apache, HAProxy, Worker und Monitoring für belastbare Laufzeiten.</p>
           </article>
         </div>
 

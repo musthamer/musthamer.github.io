@@ -7,7 +7,7 @@ export function ContactSection() {
         <SectionHeading
           eyebrow="Kontakt"
           title="Interesse an einem Austausch oder einer Zusammenarbeit?"
-          subtitle="Ich freue mich ueber Kontakte zu Unternehmen und Teams aus dem IT- und Softwarebereich."
+          subtitle="Ich freue mich über Kontakte zu Unternehmen und Teams aus dem IT- und Softwarebereich."
         />
 
         <div className="contact-links">

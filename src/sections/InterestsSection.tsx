@@ -3,7 +3,7 @@ import { SectionHeading } from '../components/SectionHeading'
 const interests = [
   {
     title: 'Softwareentwicklung',
-    description: 'Entwicklung praktischer Anwendungen und technischer Loesungen.',
+    description: 'Entwicklung praktischer Anwendungen und technischer Lösungen.',
   },
   {
     title: 'Backend und Web',
@@ -11,19 +11,19 @@ const interests = [
   },
   {
     title: 'IT Support und Application Support',
-    description: 'Technische Fehleranalyse, Unterstuetzung bei Software- und Systemproblemen und Betreuung digitaler Ablaeufe.',
+    description: 'Technische Fehleranalyse, Unterstützung bei Software- und Systemproblemen und Betreuung digitaler Abläufe.',
   },
   {
     title: 'Automatisierung',
-    description: 'Interesse an der Automatisierung wiederkehrender Ablaeufe mit Skripten, APIs und technischen Workflows.',
+    description: 'Interesse an der Automatisierung wiederkehrender Abläufe mit Skripten, APIs und technischen Workflows.',
   },
   {
     title: 'KI und intelligente Systeme',
-    description: 'Interesse an praktischen KI-Anwendungen, datenbasierten Loesungen und der Verbindung von KI mit Softwareprozessen.',
+    description: 'Interesse an praktischen KI-Anwendungen, datenbasierten Lösungen und der Verbindung von KI mit Softwareprozessen.',
   },
   {
     title: 'IT-Systeme und Infrastruktur',
-    description: 'Interesse an Linux, Docker, Serverdiensten, Netzwerken und zuverlaessigen technischen Systemen.',
+    description: 'Interesse an Linux, Docker, Serverdiensten, Netzwerken und zuverlässigen technischen Systemen.',
   },
 ]
 

@@ -8,7 +8,7 @@ export function SkillsSection() {
         <SectionHeading
           eyebrow="Technologien"
           title="Technischer Stack aus Studium, Praxis und Projekten"
-          subtitle="Schwerpunkte aus Softwareentwicklung, Daten, Infrastruktur und Testing ohne unnoetige Buzzword-Erweiterung."
+          subtitle="Schwerpunkte aus Softwareentwicklung, Daten, Infrastruktur und Testing ohne unnötige Buzzword-Erweiterung."
         />
 
         <div className="skills-grid">

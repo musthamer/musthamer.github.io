@@ -21,10 +21,10 @@ export function ExperienceSection() {
           </p>
 
           <ul>
-            <li>Betreuung von IT-Systemen, Software und digitalen Arbeitsablaeufen</li>
+            <li>Betreuung von IT-Systemen, Software und digitalen Arbeitsabläufen</li>
             <li>Technische Fehleranalyse</li>
-            <li>Unterstuetzung bei IT- und Softwarefragen</li>
-            <li>Entwicklung und Anpassung kleiner Programme und Softwareloesungen fuer interne Ablaeufe</li>
+            <li>Unterstützung bei IT- und Softwarefragen</li>
+            <li>Entwicklung und Anpassung kleiner Programme und Softwarelösungen für interne Abläufe</li>
           </ul>
         </article>
       </div>

@@ -5,7 +5,7 @@ const navItems = [
   { id: 'projects', label: 'Projekte' },
   { id: 'interests', label: 'Interessengebiete' },
   { id: 'skills', label: 'Technologien' },
-  { id: 'about', label: 'Ueber mich' },
+  { id: 'about', label: 'Über mich' },
   { id: 'experience', label: 'Erfahrung' },
   { id: 'contact', label: 'Kontakt' },
 ]
@@ -49,7 +49,7 @@ export function Navbar() {
           onClick={() => setMenuOpen((v) => !v)}
           aria-expanded={menuOpen}
           aria-controls="mobile-menu"
-          aria-label="Menue umschalten"
+          aria-label="Menü umschalten"
         >
           <span />
           <span />

@@ -6,10 +6,10 @@ export function GithubSection() {
   return (
     <section id="github" className="section-block">
       <div className="container">
-        <SectionHeading eyebrow="GitHub" title="Repository Uebersicht" subtitle="Direkte Links zu allen verifizierten Repositories aus diesem Portfolio." />
+        <SectionHeading eyebrow="GitHub" title="Repository-Übersicht" subtitle="Direkte Links zu allen verifizierten Repositories aus diesem Portfolio." />
 
         <div className="github-panel">
-          <a href={siteMeta.githubProfile} target="_blank" rel="noreferrer" className="button primary">GitHub Profil oeffnen</a>
+          <a href={siteMeta.githubProfile} target="_blank" rel="noreferrer" className="button primary">GitHub-Profil öffnen</a>
           <ul>
             {projects.map((project) => (
               <li key={project.id}>
