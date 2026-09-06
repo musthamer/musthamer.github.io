@@ -57,7 +57,7 @@ export const projects: ProjectItem[] = [
     highlights: [
       'Login, Registrierung und Session-Handling über Redis',
       'Mehrere Apache-Nodes plus HAProxy im Container-Netz',
-      'CGI-Endpunkte fuer Task-CRUD-Workflows',
+      'CGI-Endpunkte für Task-CRUD-Workflows',
     ],
     details: {
       overview: 'TaskFlow als lokal lauffähige, dockerisierte Webanwendung mit klar getrennten Diensten.',
@@ -111,7 +111,7 @@ export const projects: ProjectItem[] = [
     details: {
       overview: 'Webprojekt mit Benutzer- und Admin-Funktionen für einen Hotelbuchungsprozess.',
       challenge: 'Buchungslogik musste Kollisionen vermeiden und gleichzeitig für Nutzer einfach bleiben.',
-      solution: 'Die Implementierung nutzt serverseitige Validierungsregeln und einen SQLite-gestuetzten Persistenzfluss mit klaren Setup-Schritten.',
+      solution: 'Die Implementierung nutzt serverseitige Validierungsregeln und einen SQLite-gestützten Persistenzfluss mit klaren Setup-Schritten.',
       architecture: ['PHP-Seiten und Handler', 'Session-basierte Auth-Logik', 'SQLite-Datenspeicher'],
       technicalAspects: ['Automatischer DB-Setup beim ersten Start', 'Abgesicherte Admin-Operationen bei bestehenden Buchungen'],
     },
