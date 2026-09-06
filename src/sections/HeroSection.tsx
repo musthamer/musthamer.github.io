@@ -25,7 +25,7 @@ export function HeroSection() {
         </div>
 
         <aside className="hero-panel" aria-label="Aktueller Fokus">
-          <img src="/assets/portrait-tech.svg" alt="Abstrakte Entwickler-Illustration" className="hero-portrait" loading="lazy" />
+          <img src="/assets/portrait-tech.svg" alt="Abstrakte Systemarchitektur-Visualisierung" className="hero-portrait" loading="lazy" />
           <h3>Kurzprofil</h3>
           <ul>
             <li>Informatikstudent in Delmenhorst (Deutschland)</li>
