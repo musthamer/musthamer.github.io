@@ -20,8 +20,8 @@ export function ProjectsSection() {
       <div className="container">
         <SectionHeading
           eyebrow="Projekte"
-          title="Ausgewaehlte Arbeiten"
-          subtitle="Alle Projektdetails basieren ausschliesslich auf verifizierten Repository-Informationen und README-Nachweisen."
+          title="Verifizierte Hochschulprojekte mit technischem Fokus"
+          subtitle="Beschreibung und Technologien basieren auf README und Code der jeweiligen Repositories."
         />
 
         <div className="chips" role="tablist" aria-label="Projektkategorien">
@@ -38,10 +38,10 @@ export function ProjectsSection() {
               {project.featured ? <span className="featured-badge">Top-Projekt</span> : null}
               <img src={project.image} alt={project.imageAlt} loading="lazy" />
               <div className="project-content">
-                <p className="project-category">{project.category}</p>
+                <p className="project-category">{project.type} · {project.year}</p>
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
-                <p className="project-challenge">Herausforderung: {project.challenge}</p>
+                <p className="project-challenge">Kernidee: {project.keyIdea}</p>
 
                 <ul className="project-highlights">
                   {project.highlights.map((highlight) => (
@@ -49,14 +49,20 @@ export function ProjectsSection() {
                   ))}
                 </ul>
 
+                <div className="tag-row tag-row-labels">
+                  {project.labels.map((label) => (
+                    <span key={label} className="tag tag-label">{label}</span>
+                  ))}
+                </div>
+
                 <div className="tag-row">
-                  {project.technologies.map((tech) => (
+                  {project.technologies.slice(0, 6).map((tech) => (
                     <span key={tech} className="tag">{tech}</span>
                   ))}
                 </div>
 
                 <div className="card-actions">
-                  <button onClick={() => setSelectedProject(project)}>Mehr erfahren</button>
+                  <button onClick={() => setSelectedProject(project)}>Details</button>
                   <a href={project.githubUrl} target="_blank" rel="noreferrer">GitHub</a>
                 </div>
               </div>

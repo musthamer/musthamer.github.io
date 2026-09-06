@@ -1,9 +1,9 @@
 export const siteMeta = {
   name: 'Mustafa Thamer',
-  role: 'Software-Engineering-Student · Backend · Full Stack · Systeme',
+  role: 'Informatik · Softwareentwicklung · IT-Systeme · Automatisierung',
   shortIntro:
-    'Ich entwickle backend-orientierte Webanwendungen und systemnahe Projekte mit Datenbanken, Docker-Infrastruktur und praxisnaher Frontend-Integration.',
-  availability: 'Offen fuer Praktikum und Junior-Positionen in der Softwareentwicklung',
+    'Informatikstudent mit praktischer Erfahrung in Softwareentwicklung, IT-Systemen und technischen Projekten. Interesse an Backend, Webentwicklung, Datenbanken, Automatisierung, KI und Infrastruktur.',
+  availability: 'Offen fuer Positionen im IT- und Softwarebereich',
   githubProfile: 'https://github.com/musthamer',
   cvPath: '/assets/cv.pdf',
   cvAvailable: false,

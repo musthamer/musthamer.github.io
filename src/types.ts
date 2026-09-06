@@ -1,21 +1,32 @@
-export type ProjectCategory = 'Systementwicklung' | 'Backend' | 'Webanwendung'
+export type ProjectCategory = 'Infrastruktur' | 'Distributed Systems' | 'Backend' | 'Web'
+
+export type ProjectLabel =
+  | 'Hochschulprojekt'
+  | 'Backend'
+  | 'Web'
+  | 'Distributed Systems'
+  | 'Infrastruktur'
+  | 'Java'
 
 export interface ProjectDetail {
   overview: string
-  problem: string
+  challenge: string
   solution: string
   architecture: string[]
-  engineeringChallenges: string[]
+  technicalAspects: string[]
 }
 
 export interface ProjectItem {
   id: string
   title: string
+  type: string
+  year: string
   repo: string
   githubUrl: string
   description: string
-  challenge: string
+  keyIdea: string
   technologies: string[]
+  labels: ProjectLabel[]
   category: ProjectCategory
   featured: boolean
   image: string

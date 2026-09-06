@@ -6,16 +6,17 @@ export function HeroSection() {
     <section id="top" className="hero-section">
       <div className="container hero-grid">
         <div>
-          <p className="eyebrow">Software-Engineering Portfolio</p>
+          <p className="eyebrow">Informatik Portfolio</p>
           <h1>{siteMeta.name}</h1>
           <p className="hero-role">{siteMeta.role}</p>
           <p className="hero-intro">{siteMeta.shortIntro}</p>
           <div className="hero-actions">
             <a className="button primary" href="#projects">Projekte ansehen</a>
+            <a className="button ghost" href={siteMeta.githubProfile} target="_blank" rel="noreferrer">GitHub</a>
             {siteMeta.cvAvailable ? (
-              <a className="button ghost" href={siteMeta.cvPath} target="_blank" rel="noreferrer">CV herunterladen</a>
+              <a className="button ghost" href={siteMeta.cvPath} target="_blank" rel="noreferrer">Lebenslauf</a>
             ) : (
-              <button className="button ghost" disabled aria-disabled="true" title="CV wurde noch nicht hochgeladen">CV folgt bald</button>
+              <button className="button ghost" disabled aria-disabled="true" title="Lebenslauf wurde noch nicht bereitgestellt">Lebenslauf (folgt)</button>
             )}
           </div>
           <div className="hero-badges">
@@ -25,11 +26,11 @@ export function HeroSection() {
 
         <aside className="hero-panel" aria-label="Aktueller Fokus">
           <img src="/assets/portrait-tech.svg" alt="Abstrakte Entwickler-Illustration" className="hero-portrait" loading="lazy" />
-          <h3>Aktueller Fokus</h3>
+          <h3>Kurzprofil</h3>
           <ul>
-            <li>Backend-orientierte Anwendungsentwicklung</li>
-            <li>Containerisierte Runtime- und Service-Integration</li>
-            <li>Zuverlaessiger Datenfluss zwischen UI, API und Datenbank</li>
+            <li>Informatikstudent in Delmenhorst (Deutschland)</li>
+            <li>Praxis in IT-Betreuung und Softwareentwicklung</li>
+            <li>Interesse an Backend, Web, Datenbanken, Automation und Infrastruktur</li>
           </ul>
         </aside>
       </div>

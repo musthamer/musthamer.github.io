@@ -6,21 +6,21 @@ export function AboutSection() {
       <div className="container">
         <SectionHeading
           eyebrow="Ueber mich"
-          title="Mein Engineering-Ansatz"
-          subtitle="Ich baue praktische Systeme, in denen Backend-Logik, Datenqualitaet und nutzernahe Workflows zusammenkommen."
+          title="Technisches Verstaendnis ueber den gesamten Systemfluss"
+          subtitle="Ich interessiere mich nicht nur fuer die sichtbare Oberflaeche, sondern auch fuer Logik, Daten, Sessions, Infrastruktur und die Kommunikation zwischen Diensten."
         />
 
         <div className="about-grid">
           <article>
-            <h3>So arbeite ich</h3>
+            <h3>Wie ich arbeite</h3>
             <p>
-              Ich starte beim Kernproblem, definiere klare Schnittstellen und implementiere in kleinen testbaren Schritten. Meine staerkste Arbeit entsteht, wenn Architekturentscheidungen direkt auf den Nutzerwert einzahlen.
+              Ich beginne mit dem fachlichen Ziel, zerlege es in technische Bausteine und arbeite mit klaren Schnittstellen zwischen Frontend, Backend und Datenebene. So bleiben Loesungen nachvollziehbar und wartbar.
             </p>
           </article>
           <article>
-            <h3>Was mir wichtig ist</h3>
+            <h3>Worauf ich den Fokus lege</h3>
             <p>
-              Wartbarer Code, klare Dokumentation und reproduzierbare Umgebungen. Ich bevorzuge vorhersagbare Systeme, in denen jeder Service eine eindeutige Verantwortung hat.
+              Praktische Loesungen fuer reale Ablaeufe: technische Fehleranalyse, robuste Authentifizierungs- und Datenprozesse, sowie Systeme, die auch unter Last oder bei Teilausfaellen verstaendlich bleiben.
             </p>
           </article>
         </div>

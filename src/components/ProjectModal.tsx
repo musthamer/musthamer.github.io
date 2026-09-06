@@ -26,8 +26,8 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
 
         <div className="modal-grid">
           <article>
-            <h4>Problemstellung</h4>
-            <p>{project.details.problem}</p>
+            <h4>Technische Herausforderung</h4>
+            <p>{project.details.challenge}</p>
           </article>
           <article>
             <h4>Loesung</h4>
@@ -45,9 +45,9 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
         </article>
 
         <article>
-          <h4>Technische Herausforderungen</h4>
+          <h4>Interessante technische Aspekte</h4>
           <ul>
-            {project.details.engineeringChallenges.map((item) => (
+            {project.details.technicalAspects.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>

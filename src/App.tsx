@@ -5,9 +5,9 @@ import { AboutSection } from './sections/AboutSection'
 import { ArchitectureSection } from './sections/ArchitectureSection'
 import { ContactSection } from './sections/ContactSection'
 import { EducationSection } from './sections/EducationSection'
-import { GithubSection } from './sections/GithubSection'
+import { ExperienceSection } from './sections/ExperienceSection'
 import { HeroSection } from './sections/HeroSection'
-import { HighlightsSection } from './sections/HighlightsSection'
+import { InterestsSection } from './sections/InterestsSection'
 import { ProjectsSection } from './sections/ProjectsSection'
 import { SkillsSection } from './sections/SkillsSection'
 
@@ -18,25 +18,25 @@ function App() {
       <main>
         <HeroSection />
         <Reveal>
-          <HighlightsSection />
-        </Reveal>
-        <Reveal>
-          <AboutSection />
-        </Reveal>
-        <Reveal>
           <ProjectsSection />
+        </Reveal>
+        <Reveal>
+          <InterestsSection />
         </Reveal>
         <Reveal>
           <SkillsSection />
         </Reveal>
         <Reveal>
+          <AboutSection />
+        </Reveal>
+        <Reveal>
           <ArchitectureSection />
         </Reveal>
         <Reveal>
-          <EducationSection />
+          <ExperienceSection />
         </Reveal>
         <Reveal>
-          <GithubSection />
+          <EducationSection />
         </Reveal>
         <Reveal>
           <ContactSection />

@@ -2,28 +2,28 @@ import type { SkillCategory } from '../types'
 
 export const skillCategories: SkillCategory[] = [
   {
-    title: 'Sprachen',
-    items: ['Java', 'JavaScript', 'PHP', 'Bash', 'SQL'],
+    title: 'Programmierung',
+    items: ['Java', 'C++', 'Bash', 'JavaScript', 'SQL'],
   },
   {
-    title: 'Frontend',
-    items: ['HTML', 'CSS', 'JavaScript', 'Leaflet', 'AJAX'],
+    title: 'Web und Backend',
+    items: ['HTML', 'CSS', 'Jakarta Servlets', 'Tomcat'],
   },
   {
-    title: 'Backend',
-    items: ['Java-Runtime-Workflows', 'CGI (Bash)', 'REST-aehnliche API-Vertraege'],
+    title: 'Daten',
+    items: ['MariaDB', 'MySQL', 'Redis', 'SQLite'],
   },
   {
-    title: 'Datenbanken',
-    items: ['MariaDB', 'SQLite', 'Redis', 'MySQL concepts'],
+    title: 'Systeme und DevOps',
+    items: ['Linux', 'Docker', 'Git', 'GitHub', 'Apache', 'HAProxy'],
   },
   {
-    title: 'Infrastruktur',
-    items: ['Docker', 'Apache', 'HAProxy', 'Linux/WSL'],
+    title: 'Testing',
+    items: ['k6', 'wrk', 'ApacheBench'],
   },
   {
-    title: 'Tools',
-    items: ['Git', 'GitHub', 'VS Code', 'Gnuplot'],
+    title: 'Grundlagen',
+    items: ['IT-Security', 'Netzwerktechnik', 'KI-Grundlagen'],
   },
   {
     title: 'Portfolio-Technologie',
